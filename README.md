@@ -20,4 +20,17 @@ I'm learning step by step from HTML, CSS, and JavaScript to React.
 - React.js  
 - Git & GitHub
 
---
+---
+
+## ✨ About Me
+Hi, I'm Karthik 👋  
+A passionate learner working on web development.  
+
+📫 Contact: [kamunikarthik1234@gmail.com]
+
+---
+
+> ⚠️ Note: This repository is for **personal learning and practice only**.  
+> The code and projects here are **not intended for commercial use or redistribution**.  
+> Pull requests are **not accepted**.
+
