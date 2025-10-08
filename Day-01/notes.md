@@ -1,5 +1,5 @@
 # Day 01 - HTML Basics
-**Date:** 2025-10-07
+**Date:** 07-10-2025
 
 ## Topics Learned
 - **What is HTML:** HTML (HyperText Markup Language) is used to create the structure of web pages.
