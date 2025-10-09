@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-03</title>
+  </head>
+  <body>
+    <table border="1">
+      <caption>
+        Rowspan
+      </caption>
+      <tr>
+        <th>Lecturer</th>
+        <th>Day</th>
+        <th>Subject</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Raju</td>
+        <td>Monday</td>
+        <td>Math</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Science</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <caption>
+        Colspan
+      </caption>
+      <tr>
+        <th>Lecturer</th>
+        <th>Day</th>
+        <th>Subject</th>
+      </tr>
+      <tr>
+        <td>Raju</td>
+        <td>Monday</td>
+        <td>Math</td>
+      </tr>
+      <tr>
+        <td colspan="3" align="center">Holiday</td>
+      </tr>
+      <tr>
+        <td>Pallavi</td>
+        <td>Tuesday</td>
+        <td>English</td>
+      </tr>
+    </table>
+
+
+    <h1>Registration form</h1>
+    <form action="" method="post">
+      <label for="file">Upload file : </label>
+      <input type="file" id="file" name="file" /><br />
+
+      <label for="color">Colour : </label>
+      <input type="color" name="color" id="color" /><br />
+
+      <p>Gender :</p>
+      <label for="male">Male </label>
+      <input type="radio" name="gender" id="male" value="male" />
+
+      <label for="female">Female </label>
+      <input type="radio" name="gender" id="female" value="female" /><br />
+
+      <p>Select Hobbies :</p>
+      <label for="reading">Reading</label>
+      <input type="checkbox" name="hobbies" id="reading" value="reading" />
+
+      <label for="playing">Playing</label>
+      <input type="checkbox" name="hobbies" id="playing" value="playing" />
+
+      <label for="singing">Singing</label>
+      <input type="checkbox" name="hobbies" id="singing" value="singing" /> <br / ><br />
+
+      <button type="submit">Submit</button>
+    </form>
+
+  </body>
+</html>
