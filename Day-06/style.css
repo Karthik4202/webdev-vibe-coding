@@ -1,0 +1,47 @@
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(161,141,229);
+    color: white;
+    padding: 20px;
+    border-color: rgb(174, 4, 66);
+    border-style: solid;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(161, 141, 229);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border: solid rgb(58, 11, 169);
+}
+
+.box3{
+    height: 200px;
+    width: 350px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKbHnI8D0x8RlKfYk0-PQ1Li-5es86a4dyZA&s);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: yellow;
+
+}
+
+.box4{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right,red,yellow,blue);
+}
+
+.box5{
+    height: 200px;
+    width: 250px;
+    background: radial-gradient(circle,red,orange,white);
+}
+
+.box6{
+    width: 300px;
+    height: 250px;
+    background: linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red);
+}
