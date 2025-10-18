@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.px-box {
+  width: 200px;
+  height: 100px;
+  background-color: lightcoral;
+  color: white;
+  font-size: 20px;
+}
+
+
+.percent-box {
+  width: 50%;
+  height: 100px;
+  background-color: lightgreen;
+  color: black;
+  font-size: 20px;
+}
+
+.parent {
+  font-size: 20px; 
+}
+
+.em-box {
+  width: 10em; 
+  height: 5em; 
+  background-color: skyblue;
+  color: black;
+  font-size: 2em; 
+}
+
+html {
+  font-size: 16px; 
+}
+
+.rem-box {
+  width: 12rem; 
+  height: 6rem; 
+  background-color: khaki;
+  color: black;
+  font-size: 1.5rem; 
+}
+
+
+.viewport-box {
+  width: 50vw; 
+  height: 20vh; 
+  background-color: plum;
+  color: black;
+  font-size: 24px;
+}
