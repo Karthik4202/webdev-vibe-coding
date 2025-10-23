@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    border: 2px solid black;
+    width: 300px;
+}
+.box {
+    background-color: lightcoral;
+    border: 1px solid rgb(203, 236, 20);
+    width: 150px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+}
+.box1 { 
+    flex-shrink: 1; 
+}
+.box2 { 
+    flex-shrink: 3; 
+} 
+.box3 { 
+    flex-shrink: 0; 
+} 
