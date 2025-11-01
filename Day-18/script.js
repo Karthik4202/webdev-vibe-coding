@@ -6,7 +6,7 @@ console.log(typeof a);//something should be defined but not defined : undefined
 let b = null;//null is a empty value . 
 
 console.log(b);
-console.log(typeof b);//typeof null is undefined
+console.log(typeof b);//typeof null is object
 
 let num1 = 25;
 let num2 = '25';
