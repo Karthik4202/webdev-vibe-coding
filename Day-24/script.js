@@ -14,8 +14,6 @@ function square(number){
     return number*number;
 }
 
-
-
 function numbersOperation(array,operator){
     let result = [];
     for(let i = 0; i < array.length; i++){
@@ -24,6 +22,7 @@ function numbersOperation(array,operator){
     return result;
 }
 const arr = [1,2,3,4,5];
+//passing the square function as a arguement 
 let doubledArray = numbersOperation(arr,square);
 console.log(doubledArray);
 
