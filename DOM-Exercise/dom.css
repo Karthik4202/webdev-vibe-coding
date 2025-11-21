@@ -1,0 +1,33 @@
+.box {
+    margin: 5px;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 120px;
+    height: 30px;
+    width: 130px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(191, 232, 239);
+    border: solid rgb(210, 236, 239);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(159, 233, 235);
+    transform: scale(1.1);
+}
