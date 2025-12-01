@@ -38,3 +38,8 @@ window.addEventListener('scroll',(event)=>{
     console.log(event.type);
     h2.innerHTML=`${(event.type).toUpperCase()}`
 })
+
+window.addEventListener('keyup',(event)=>{
+    console.log(event.type);
+    h2.innerHTML=`${(event.type).toUpperCase()}`
+})
