@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            color: white;
+            background-color: black;
+        }
+      .container {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .child {
+        height: 200px;
+        width: 200px;
+        border: 2px solid rgb(255, 255, 255);
+      }
+      .eventtype {
+        border: 2px solid rgb(255, 255, 255);
+        height: 50px;
+        width: 250px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="child"></div>
+      <div class="eventtype">
+        <h2>Event Type</h2>
+      </div>
+    </div>
+    <div style="height:400px;">
+    <!-- Added this div to show the scroll event -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
