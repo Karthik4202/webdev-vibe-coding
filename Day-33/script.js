@@ -1,25 +1,56 @@
 //OOPS
 //1.Encapsulation: Data(properties) and Behaviour(methods) are kept inside one class
-class Person {
-  constructor(name) {
-    this.name = name;
+class BankAccount {
+  #balance = 0;   
+
+  deposit(amount) {
+    this.#balance += amount;
   }
 
-  sayHello() {
-    console.log("Hello " + this.name);
+  withdraw(amount) {
+    if (amount <= this.#balance) {
+      this.#balance -= amount;
+    }
+  }
+
+  getBalance() {
+    return this.#balance;
   }
 }
+
+const account = new BankAccount();
+account.deposit(500);
+console.log(account.getBalance());  
+
+//console.log(account.#balance); 
+
 
 //2.Abstraction 
 //Abstraction means showing only what is necessary and hide the rest 
 
-class Car{
-    #engineNumber = 12345;//private field(cannot be accessed outside)
+class Car {
+  start() {
+    this.#igniteEngine();
+    this.#checkOilPressure();
+    this.#startFuelPump();
+    console.log("Car started");
+  }
 
-    start(){
-        console.log("Car Started..")
-    }
+  #igniteEngine() {
+
+  }
+  #checkOilPressure() { 
+
+  }
+  #startFuelPump() { 
+
+  }
 }
+
+const car = new Car();
+car.start();       
+//car.#igniteEngine();   
+
 
 //3.Inheritance 
 //Child class inherits from the parent class using the extends keyword
