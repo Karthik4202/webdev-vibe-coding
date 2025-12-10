@@ -1,0 +1,69 @@
+//OOPS
+//1.Encapsulation: Data(properties) and Behaviour(methods) are kept inside one class
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+
+  sayHello() {
+    console.log("Hello " + this.name);
+  }
+}
+
+//2.Abstraction 
+//Abstraction means showing only what is necessary and hide the rest 
+
+class Car{
+    #engineNumber = 12345;//private field(cannot be accessed outside)
+
+    start(){
+        console.log("Car Started..")
+    }
+}
+
+//3.Inheritance 
+//Child class inherits from the parent class using the extends keyword
+
+class Vehicle {
+  break() {
+    console.log("Vehicle Stopped");
+  }
+}
+
+class Bike extends Vehicle { 
+  horn() {
+    console.log("Horn");
+  }
+}
+
+const activa = new Bike();
+activa.break(); 
+activa.horn();
+
+//4.Polymorphism
+//polymorphism means method overriding, Child class rewriting the parent class method
+class Animal {
+  sound() {
+    console.log("Some sound...");
+  }
+}
+
+class Dog extends Animal {
+  sound() {
+    console.log("Bark!");
+  }
+}
+
+class Cat extends Animal {
+  sound() {
+    console.log("Meow!");
+  }
+}
+
+const animal = new Animal();
+const dog = new Dog();
+const cat = new Cat();
+
+animal.sound();  // Some sound...
+dog.sound();  // Bark!
+cat.sound();  // Meow!
