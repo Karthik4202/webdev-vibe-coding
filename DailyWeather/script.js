@@ -97,7 +97,7 @@ const weatherData = async (city) => {
   document.querySelector("#feelslike").innerHTML=`Feels Like :- ${feelsLike}°C`
   document.querySelector("#windspeed").innerHTML=`${windspeed} km/hr`
   document.querySelector("#winddirection").innerHTML=`Towards ${direction}`
-  document.querySelector("#humidity").innerHTML=`Humidity :- ${humidity} %`
+  document.querySelector("#humidity").innerHTML=`Humidity :- ${humidity}%`
   document.querySelector("#mintemp").innerHTML=`Min Temp :- ${mintemp}°C`
   document.querySelector("#maxtemp").innerHTML=`Max Temp :- ${maxtemp}°C`
   document.querySelector("#city").innerHTML=`${currentcity}, ${country}`
