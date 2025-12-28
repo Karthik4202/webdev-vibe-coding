@@ -42,6 +42,8 @@ out/
 .eslintcache
 .stylelintcache
 .node_repl_history
+apikey.js
+
 
 # =========================
 # System Files
