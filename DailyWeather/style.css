@@ -128,3 +128,53 @@ main{
 #isday{
     font-size: 1.3rem;
 }
+
+@media (max-width:992px){
+    .weather-data{
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 0;
+        box-shadow: none;
+    }
+    .weather-info{
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+        padding: 10px;
+        margin-top: 2rem;
+        box-shadow: 0px 6px 20px 0px #736d6dba;
+        border-radius: 12px;
+    }
+    .weather-image{
+        width: 100%;
+        box-shadow: 0px 6px 20px 0px #736d6dba;
+        padding: 20px;
+        border-radius: 12px;
+    }
+}
+
+@media (max-width:663px) {
+    .nav{
+        flex-direction: column;
+        justify-content: start;
+        align-content: center;
+    }
+    .nav-search{
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .nav-search input{
+        width: 100%;
+
+    }
+    .nav-logo{
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
