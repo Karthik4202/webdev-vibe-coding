@@ -30,4 +30,3 @@ const register = () => {
 
 export default register
 
-// border border-slate-300 p-3 rounded-sm text-xl focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none
