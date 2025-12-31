@@ -1,0 +1,137 @@
+.logo{
+  width: 3rem;
+  border-radius: 50%;
+  border:1px solid grey;
+  padding: 4px;
+  object-fit: cover;
+}
+
+.save{
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid rgb(160, 159, 159);
+  padding: 3px 5px
+}
+.save:hover{
+  cursor:pointer;
+}
+.card-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card{
+  width: 310px;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.card-between{
+  margin-top: 20px;
+  /* border:2px solid black; */
+  column-gap: 10px;
+  min-height: 156px;
+}
+
+.company-details{
+  display: flex;
+  gap:5px;
+  margin-bottom: 6px;
+  justify-content: start;
+  align-items: center;
+}
+.company-name{
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+.jobposted{
+  font-size: 9px;
+  padding-top: 4px;
+  color: #acacac;
+  font-weight: 500;
+
+}
+.job-role{
+  margin-bottom: 6px;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.job-info{
+  display: flex;
+  gap:7px;
+  margin-bottom: 6px;
+}
+
+.job-info li{
+  list-style:none;
+  background-color: #eeeeee;
+  padding:3px 10px;
+  border-radius: 7px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+hr{
+  margin-bottom:1rem;
+}
+
+.card-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.salary{
+  font-weight: 600;
+  font-size: 1.07rem;
+}
+
+.job-location{
+  font-size: 0.65rem;
+  color: #acacac;
+  font-weight: 400;
+}
+
+button{
+  padding: 6px 12px;
+  background-color: black;
+  color:rgb(235, 230, 230);
+  border: none;
+  border-radius: 8px;
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+button:hover{
+  cursor:pointer;
+  color:white;
+  scale: 1.05;
+  
+
+}
+.saved{
+  filter: invert(1) brightness(0);
+}
+
+.savetext{
+  background-color: rgb(184, 183, 183);
+}
+
+.jobposts{
+  width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #acacac;
+  gap: 23px;
+  align-content: start;
+  justify-content: center;
+  padding: 23px;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0px;
+}
