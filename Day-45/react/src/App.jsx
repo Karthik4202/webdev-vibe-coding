@@ -4,7 +4,7 @@ import './App.css'
 
 const App = () => {
 
-  const [data, setdata] = useState({})
+  const [data, setdata] = useState([])
   const [fetched, setfetched] = useState(false)
 
   useEffect(() => {
