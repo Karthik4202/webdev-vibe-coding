@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+  background-color: rgb(190, 221, 241);
+  border-radius: 23px;
+  padding: 10px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.card img{
+  height: 170px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.card p{
+  text-align: center;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}

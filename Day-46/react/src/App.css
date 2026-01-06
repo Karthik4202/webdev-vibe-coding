@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width:100%;
+  height: 100%;
+}
+
+.gallery{
+  margin: 23px auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  gap: 23px;
+  padding: 23px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 233, 233);
+  border-radius: 23px;
+}
+
+.heading{
+  text-align: center;
+  margin-top: 23px;
+  font-size: 40px;
+}
+
+.loading{
+  text-align: center;
+}
+
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  margin-bottom: 23px;
+}
+
+.currentpage{
+  font-size: 1.5rem;
+}
+
+button{
+  padding: 6px 14px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #11a6cf;
+  border: none;
+  border-radius: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+  transform-origin: center;
+}
+
+button:hover{
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
+button:active{
+  transform: scale(0.95);
+}
+
+.skiptopage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 23px;
+}
+.skiptopage input{
+  padding: 6px 12px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.skiptopage input:focus{
+  border-color: #11a6cf;
+}
